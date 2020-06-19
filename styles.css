@@ -32,6 +32,35 @@ a {
     height: 20px;
 }
 
+.navnested {
+    display: grid;
+    justify-content: end;
+    align-content: center;
+    grid-auto-flow: column;
+    grid-gap: 20px;
+}
+
+.navnested a {
+    padding-top: 5px;
+}
+
+.navnested a:hover {
+    color: rgb(75, 72, 72);
+    text-decoration: underline;
+}
+
+button {
+    -webkit-appearance: none;
+    color: white;
+    background: #4285f4;
+    border-color: #4285f4;
+    border-style: solid;
+    border-radius: 2px;
+    padding: 0px 12px 0px 12px;
+    line-height: 24px;
+    font-weight: bold;
+}
+
 /*  MAIN SECTION  */
 #container main {
     background: white;
