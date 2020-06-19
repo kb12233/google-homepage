@@ -179,3 +179,32 @@ input[type="submit"]:hover {
 
 
 /*  ---MEDIA QUERIES---   */
+@media (max-width: 700px){
+    input[type='search'] {
+        width: 482px;
+        height: 44px;
+        border: 1px solid #dfe1e5;
+        border-radius: 24px;
+        margin-bottom: 25px;
+    }
+}
+
+@media (max-width: 640px){
+    input[type='search'] {
+        width: 382px;
+        height: 44px;
+        border: 1px solid #dfe1e5;
+        border-radius: 24px;
+        margin-bottom: 25px;
+    }
+}
+
+@media (max-width: 582px){
+    input[type='search'] {
+        width: 342px;
+        height: 44px;
+        border: 1px solid #dfe1e5;
+        border-radius: 24px;
+        margin-bottom: 25px;
+    }
+}
